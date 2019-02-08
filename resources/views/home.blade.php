@@ -68,6 +68,9 @@
                                          document.getElementById('logout-form').submit();">
                             {{ __('Finalizar Sesión') }}
                         </a>
+                        <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+                            @csrf
+                        </form>
                     </div>
                 </li>
             </ul>
@@ -102,6 +105,9 @@
                                              document.getElementById('logout-form').submit();">
                                 {{ __('Finalizar Sesión') }}
                             </a>
+                            <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+                                @csrf
+                            </form>
                             </li>
                         </ul>
                     </li>
