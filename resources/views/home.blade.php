@@ -147,7 +147,7 @@
 
             <div class="row">
                 <div class="col-lg-12">
-                     <button type="submit" class="btn btn-success btn-lg float-right">{{ __('Crear') }}</button>
+                     <button type="submit" class="btn btn-success btn-lg float-right">{{ __('Agregar Tesis') }}</button>
                 </div>
             </div>
             
@@ -176,6 +176,7 @@
                                             <th>Fecha de Aprobación</th>
                                             <th>Calificación</th>
                                             <th>Categoría</th>
+                                            <th>Acciones</th>
                                         </tr>
                                     </thead>
                                     <tbody>
@@ -187,6 +188,9 @@
                                             <td>Lorem ipsum </td>
                                             <td>Lorem ipsum </td>
                                             <td>Lorem ipsum </td>
+                                            <td class="with-btn" nowrap>
+                                              <a href="#" class="btn btn-sm btn-primary width-60 m-r-2">Editar</a>
+                                            </td>
                                         </tr>
                                         <tr>
                                             <td>Lorem ipsum </td>
@@ -196,6 +200,9 @@
                                             <td>Lorem ipsum </td>
                                             <td>Lorem ipsum </td>
                                             <td>Lorem ipsum </td>
+                                             <td class="with-btn" nowrap>
+                                              <a href="#" class="btn btn-sm btn-primary width-60 m-r-2">Editar</a>
+                                            </td>
                                         </tr>
                                         <tr>
                                             <td>Lorem ipsum </td>
@@ -205,6 +212,9 @@
                                             <td>Lorem ipsum </td>
                                             <td>Lorem ipsum </td>
                                             <td>Lorem ipsum </td>
+                                             <td class="with-btn" nowrap>
+                                              <a href="#" class="btn btn-sm btn-primary width-60 m-r-2">Editar</a>
+                                            </td>
                                         </tr>
                                         <tr>
                                             <td>Lorem ipsum </td>
@@ -214,6 +224,9 @@
                                             <td>Lorem ipsum </td>
                                             <td>Lorem ipsum </td>
                                             <td>Lorem ipsum </td>
+                                             <td class="with-btn" nowrap>
+                                              <a href="#" class="btn btn-sm btn-primary width-60 m-r-2">Editar</a>
+                                            </td>
                                         </tr>
                                     </tbody>
                                 </table>
